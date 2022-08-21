@@ -4,6 +4,7 @@ import React from 'react'
 // import { Article, Brand, CTA, Navbar, Feature } from './components';
 import { Footer, Blog, Features, Header, Possibility, WhatAlpha } from './container';
 import { Brand, CTA, Navbar } from './components';
+import "./App.css";
 
 const App = () => {
   return (
