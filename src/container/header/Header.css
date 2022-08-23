@@ -1,0 +1,38 @@
+.alpha__header {
+    display: flex;
+    flex-direction: row;
+}
+
+.alpha__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+}
+
+/* Text Styling */
+
+.alpha__header-content h1 {
+    font-family: var(--font-family);
+    text-transform: capitalize;
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: 0.04em;
+}
+
+.alpha__header-content p {
+    font-family: var(--font-family);
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 27px;
+    font-style: normal;
+    font-weight: normal;
+
+    color: var(--color-text);
+
+    margin-top: 1.5rem;
+}
