@@ -36,3 +36,79 @@
 
     margin-top: 1.5rem;
 }
+
+/* Input Styling */
+
+.alpha__header-content__input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+}
+
+.alpha__header-content__input input {
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    background: var(--color-footer);
+    border-radius: 5px 0px 0px 5px;
+    font-family: var(--font-family);
+    font-size: 20px;
+    color: #3D6184;
+    padding: 0 1rem;
+    border: 2px solid var(--color-footer);
+    outline: none;
+}
+
+.alpha__header-content__input button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    background: var(--gradient-text);
+    border-radius: 0px 5px 5px 0px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+    border: none;
+}
+
+.alpha__header-content__people {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.alpha__header-content__people img{
+    width: 180px;
+    height: 40px;
+}
+
+.alpha__header-content__people p{
+    margin:0 0 0 1rem;
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    color: #fff;
+}
+
+/* Hero Image */
+
+.alpha__header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alpha__header-image img {
+    width: 100%;
+    height: 100%;
+}
