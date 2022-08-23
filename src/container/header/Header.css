@@ -112,3 +112,51 @@
     width: 100%;
     height: 100%;
 }
+
+@media screen and (max-width: 1050px) {
+    .alpha__header{
+        flex-direction: column;
+    }
+    .alpha__header-content{
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .alpha__header h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .alpha__header p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .alpha__header-content__people {
+        flex-direction: column;
+    }
+    .alpha__header-content__people p{
+        margin: 0;
+    }
+    .alpha__header-content__input input,
+    .alpha__header-content__input button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .alpha__header h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .alpha__header p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .alpha__header-content__input input,
+    .alpha__header-content__input button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    
+}
