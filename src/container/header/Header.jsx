@@ -21,10 +21,10 @@ const Header = () => {
           <img src={people} alt="people already in alpha lgeion" srcset="" />
           <p>1700 million "people" have already joined in the last 24 hours, don't miss out!</p>
         </div>
-        <div className="alpha__header-image">
+      </div>
+      <div className="alpha__header-image">
           <img src={alpharius} alt="the great one" />
         </div>
-      </div>
     </div>
   )
 }
