@@ -7,6 +7,10 @@
     scroll-behavior: smooth;
 }
 
+a:hover {
+  color: var(--color-text);
+}
+
 body {
     background: var(--color-bg);
 }
