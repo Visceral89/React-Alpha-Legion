@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css';
 import people from '../../assets/people.png';
 import alpharius from '../../assets/alpharius.png';
+import alphashh from '../../assets/alpha-shh.png';
 
 const Header = () => {
   return (
@@ -23,7 +24,7 @@ const Header = () => {
         </div>
       </div>
       <div className="alpha__header-image">
-          <img src={alpharius} alt="the great one" />
+          <img src={alphashh} alt="the great one" />
         </div>
     </div>
   )
