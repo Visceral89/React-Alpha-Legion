@@ -1,0 +1,9 @@
+.alpha__whatalpha {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+    background-color: var(--color-footer);
+
+    background: radial-gradient(circle);
+}
