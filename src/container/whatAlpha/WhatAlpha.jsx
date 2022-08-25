@@ -10,7 +10,7 @@ const WhatAlpha = () => {
           <Feature />
         </div>
         <div className="alpha__whatalpha-heading">
-          <h1 className='gradient__text'>The possibilities are beyond your imagination</h1>
+          <h1 className='gradient__text'>The possibilities are beyond your belief...</h1>
           <p>Explore the Black Library</p>
         </div>
         <div className="alpha__whatalpha-container">
