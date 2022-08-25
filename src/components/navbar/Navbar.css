@@ -48,6 +48,10 @@
     align-items: center;
 }
 
+.alpha__navbar-sign p:hover {
+    color: var(--color-text);
+}
+
 .alpha__navbar-sign button,
 .alpha__navbar-menu_container button {
     padding: 1rem 2rem;
