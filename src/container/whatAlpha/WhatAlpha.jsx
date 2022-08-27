@@ -14,9 +14,9 @@ const WhatAlpha = () => {
           <p>Explore the Black Library</p>
         </div>
         <div className="alpha__whatalpha-container">
-          <Feature />
-          <Feature />
-          <Feature />
+          <Feature title="" text="" />
+          <Feature title="" text="" />
+          <Feature title="" text="" />
         </div>
       </div>
     
